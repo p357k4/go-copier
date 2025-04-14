@@ -1,0 +1,26 @@
+{
+  "files_incoming_dir": "data/files/incoming",
+  "files_landed_dir": "data/files/landed",
+  "files_compressed_dir": "data/files/compressed",
+  "files_decompressed_dir": "data/files/decompressed",
+  "files_accepted_dir": "data/files/accepted",
+  "files_completed_dir": "data/files/completed",
+  "files_gcs_dir": "data/files/gcs",
+  "files_final_rejected_dir": "data/files/final/rejected",
+  "files_final_failed_dir": "data/files/final/failed",
+  "files_final_uploaded_dir": "data/files/final/uploaded",
+  "files_final_dropped_dir": "data/files/final/dropped",
+  "manifests_incoming_dir": "data/manifests/incoming",
+  "manifests_landed_dir": "data/manifests/landed",
+  "manifests_uploaded_dir": "data/manifests/uploaded",
+  "manifests_registered_dir": "data/manifests/registered",
+  "manifests_gcs_dir": "data/manifests/gcs",
+  "manifests_completed_dir": "data/manifests/completed",
+  "manifests_dropped_dir": "data/manifests/dropped",
+  "manifests_failed_dir": "data/manifests/failed",
+
+  "folder_monitor_interval_ms": 5000,
+  "manifest_creation_time_threshold_ms": 60000,
+  "manifest_creation_file_count_threshold": 100,
+  "maximum_file_age_for_upload_ms": 3600000
+}
